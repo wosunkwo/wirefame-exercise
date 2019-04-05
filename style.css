@@ -62,7 +62,6 @@ button {
   width: 250px;
   height: 42px;
   border-radius: 11%;
-  background-color: gray;
   font-size: 20px;
 }
 footer {
@@ -72,3 +71,10 @@ footer {
   background-color: gray;
 }
 
+button:hover:not(#button) {
+  background-color: red;
+}
+
+button {
+  background-color: #4CAF50;
+}
